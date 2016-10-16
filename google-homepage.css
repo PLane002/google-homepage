@@ -1,0 +1,54 @@
+
+.logo
+{
+	position:absolute;
+	margin-top:450px;
+	margin-left:65%; /*810px is the equivalent*/
+	
+	
+}
+
+input[type=text]
+{
+	width:75%;
+	height:50px;
+	margin:50% 50% 50% 50%;
+}
+
+/*
+input[type=button]
+{
+	width:100px;
+	margin-left:50%;
+	margin-bottom:600px;
+}*/
+
+.gsearch
+{
+	position:relative;
+	width:300px;
+	height:300px;
+	margin-left:75%;
+	
+	bottom:560px;
+}
+
+.header1
+{
+	position:relative;
+	display:inline;
+	float:right;
+	font-size:20px;
+	width:6%;
+	left:85%;
+}
+.header2
+{
+	position:relative;
+	display:inline;
+	float:right;
+	font-size:20px;
+	width:6%;
+	left:85%;
+	
+}
