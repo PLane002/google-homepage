@@ -2,53 +2,176 @@
 .logo
 {
 	position:absolute;
-	margin-top:450px;
-	margin-left:65%; /*810px is the equivalent*/
+	margin-top:250px;
+	margin-left:650px; 
 	
 	
 }
 
 input[type=text]
 {
-	width:75%;
+
+	width:50%;
 	height:50px;
-	margin:50% 50% 50% 50%;
-}
-
-/*
-input[type=button]
-{
-	width:100px;
-	margin-left:50%;
-	margin-bottom:600px;
-}*/
-
-.gsearch
-{
-	position:relative;
-	width:300px;
-	height:300px;
-	margin-left:75%;
+	margin-top:450px;
+	margin-left:450px;
 	
-	bottom:560px;
 }
+
+.gsearch1
+{
+
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	font-family: Arial;
+	font-weight: bolder;
+	color: #707070;
+	background: #f0f0f0;
+	padding: 7px 15px 7px 15px;
+	text-decoration: none;
+	border: none;
+	margin-left:800px;
+	display:inline;
+	margin-top:50px;
+	position:relative;
+	
+}
+
+
+.gsearch2
+{
+
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	font-family: Arial;
+	font-weight: bolder;
+	color:#707070;
+	background:#f0f0f0;
+	padding:7px 15px 7px 15px;
+	text-decoration: none;
+	border: none;
+	margin-left:8px;
+	display:inline;
+	margin-top:50px;
+	position:relative;
+	
+}
+
 
 .header1
 {
-	position:relative;
+	/*position:relative;*/
 	display:inline;
-	float:right;
+	/*float:right;*/
 	font-size:20px;
 	width:6%;
-	left:85%;
+	margin-left:75em;
+
 }
 .header2
 {
-	position:relative;
+	/*position:relative;*/
 	display:inline;
-	float:right;
+	/*float:right;*/
 	font-size:20px;
 	width:6%;
-	left:85%;
+	margin-left:5px;
+}
+
+.header3
+{
+	display:inline;
+	width:6%;
+	margin-left:5px;
 	
+}
+
+.header4
+{
+	display:inline;
+	font-size:20px;
+	margin-left:5px;
+	width:6%;
+	background-color:blue;
+	padding:7px 10px 7px 10px;
+	border-radius:5px;
+	-webkit-border-radius: 5;
+	-moz-border-radius: 5;
+}
+
+
+.headers a:link
+{
+	color:black;
+	text-decoration:none;
+}
+
+.headers a:visited
+{
+	color:black
+}
+
+.headers a:hover
+{
+	text-decoration:underline;
+}
+
+.header4 a:visited
+{
+	color:white;
+}
+
+.header4 a:hover
+{
+	text-decoration:none;
+}
+
+
+.footer
+{
+	height:25px;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background-color:#f0f0f0;
+	color:#707070;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:18px;
+}
+
+.footer a:visited
+{
+	color:#707070;
+}
+
+.footer a:link
+{
+	text-decoration:none;
+	color:#707070;
+}
+
+#footer-l
+{
+	float:left;
+	padding-left:20px;
+	
+}
+
+#footer-l a:hover
+{
+	text-decoration:underline;
+}
+
+#footer-r
+{
+	float:right;
+	padding-right:20px;
+}
+
+#footer-r a:hover
+{
+	text-decoration:underline;
 }
